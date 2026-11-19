@@ -23,8 +23,19 @@ function render() {
 }
 
 function save(patch, msg) {
+  const before = { ...current };
   Object.assign(current, patch);
-  chrome.storage.sync.set(current, () => { render(); flash(msg || t("saved")); });
+  chrome.storage.sync.set(current, () => {
+    if (chrome.runtime.lastError) {
+      // Usually Chrome's sync limit (about 8 KB per setting) for a very long keyword list.
+      current = before;
+      render();
+      flash(t("saveFailed"));
+      return;
+    }
+    render();
+    flash(msg || t("saved"));
+  });
 }
 
 chrome.storage.sync.get(GTA6_DEFAULTS, (s) => {
@@ -72,7 +83,18 @@ $("export").addEventListener("click", () => {
   flash(t("keywordsExported", [String(keywords.length)]));
 });
 
-$("import").addEventListener("click", () => $("importFile").click());
+// Firefox closes the popup as soon as a file picker opens, so import from a tab there instead.
+const IS_FIREFOX = navigator.userAgent.includes("Firefox");
+const IN_TAB = new URLSearchParams(location.search).has("tab");
+
+$("import").addEventListener("click", () => {
+  if (IS_FIREFOX && !IN_TAB) {
+    chrome.tabs.create({ url: chrome.runtime.getURL("popup.html?tab=1") });
+    window.close();
+    return;
+  }
+  $("importFile").click();
+});
 
 $("importFile").addEventListener("change", async (e) => {
   const file = e.target.files[0];

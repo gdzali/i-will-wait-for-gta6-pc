@@ -100,5 +100,33 @@
   },
   "aggressiveOff": {
     "message": "Modo agresivo desactivado: solo se bloquea GTA 6"
+  },
+  "saveFailed": {
+    "message": "No se pudo guardar: la lista de palabras clave es demasiado larga"
+  },
+  "exportKeywords": {
+    "message": "Exportar"
+  },
+  "importKeywords": {
+    "message": "Importar"
+  },
+  "keywordsExported": {
+    "message": "Se exportaron $COUNT$ palabras clave",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "keywordsImported": {
+    "message": "Se añadieron $COUNT$ palabras clave nuevas",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "importFailed": {
+    "message": "No se pudo leer ese archivo"
   }
 }

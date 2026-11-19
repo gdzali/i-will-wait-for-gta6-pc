@@ -125,5 +125,8 @@
   },
   "importFailed": {
     "message": "Bu fayl oxuna bilmədi"
+  },
+  "saveFailed": {
+    "message": "Yadda saxlanılmadı: açar sözlərin siyahısı çox uzundur"
   }
 }

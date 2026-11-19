@@ -125,5 +125,8 @@
   },
   "importFailed": {
     "message": "Could not read that file"
+  },
+  "saveFailed": {
+    "message": "Could not save: the keyword list is too long"
   }
 }

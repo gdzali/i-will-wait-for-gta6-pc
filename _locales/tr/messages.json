@@ -125,5 +125,8 @@
   },
   "importFailed": {
     "message": "Bu dosya okunamadı"
+  },
+  "saveFailed": {
+    "message": "Kaydedilemedi: anahtar kelime listesi çok uzun"
   }
 }
