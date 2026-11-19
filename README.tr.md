@@ -6,6 +6,7 @@
   <a href="README.md"><img src="assets/lang/en.svg" alt="English" height="36"></a>
   <a href="README.tr.md"><img src="assets/lang/tr-active.svg" alt="Türkçe" height="36"></a>
   <a href="README.az.md"><img src="assets/lang/az.svg" alt="Azərbaycanca" height="36"></a>
+  <a href="README.es.md"><img src="assets/lang/es.svg" alt="Español" height="36"></a>
 </p>
 
 Chrome, Edge, Brave ve Opera için **GTA 6 spoiler engelleyici**. **GTA 6'yı PC'de** oynamak için bekliyorsan ve konsol

@@ -6,6 +6,7 @@
   <a href="README.md"><img src="assets/lang/en-active.svg" alt="English" height="36"></a>
   <a href="README.tr.md"><img src="assets/lang/tr.svg" alt="Türkçe" height="36"></a>
   <a href="README.az.md"><img src="assets/lang/az.svg" alt="Azərbaycanca" height="36"></a>
+  <a href="README.es.md"><img src="assets/lang/es.svg" alt="Español" height="36"></a>
 </p>
 
 **GTA 6 spoiler blocker** for Chrome, Edge, Brave and Opera. Waiting for **GTA 6 on PC** and don't want the console

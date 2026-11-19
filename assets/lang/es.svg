@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="124" height="36" viewBox="0 0 124 36" role="img" aria-label="Español">
+<title>Español</title>
+<defs><clipPath id="f"><rect x="14" y="8" width="30" height="20" rx="3"/></clipPath></defs>
+<rect x="0.5" y="0.5" width="123" height="35" rx="18" fill="#30363d" stroke="#484f58"/>
+<g clip-path="url(#f)"><g transform="translate(14,8)"><rect width="30" height="20" fill="#AA151B"/><rect y="5" width="30" height="10" fill="#F1BF00"/>
+<rect x="7" y="7.6" width="3.2" height="4.4" rx="0.8" fill="#AA151B"/><rect x="6.6" y="6.9" width="4" height="0.9" fill="#AA151B"/></g></g>
+<rect x="14" y="8" width="30" height="20" rx="3" fill="none" stroke="rgba(0,0,0,.25)"/>
+<text x="54" y="23.5" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="15" font-weight="600" fill="#ffffff">Español</text>
+</svg>
