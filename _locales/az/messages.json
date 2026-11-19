@@ -128,5 +128,19 @@
   },
   "saveFailed": {
     "message": "Yadda saxlanılmadı: açar sözlərin siyahısı çox uzundur"
+  },
+  "updateAvailable": {
+    "message": "Yeniləmə var: v$VERSION$",
+    "placeholders": {
+      "version": {
+        "content": "$1"
+      }
+    }
+  },
+  "updateDownload": {
+    "message": "Yüklə"
+  },
+  "checkUpdates": {
+    "message": "Yeni versiyalar barədə xəbər ver"
   }
 }

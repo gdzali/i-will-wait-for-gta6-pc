@@ -63,7 +63,7 @@ Arayüz, tarayıcı dili Türkçe, Azerbaycanca veya İspanyolca ise o dilde, de
 - Kapalı shadow DOM içindeki içerik taranmaz.
 
 ## Gizlilik
-Eklenti hiçbir veri toplamaz ve hiçbir yere bağlanmaz. Ayarların sadece Chrome'un kendi depolamasında tutulur.
+Eklenti hiçbir veri toplamaz. Tek ağ isteği isteğe bağlı güncelleme kontrolüdür: popup en fazla 12 saatte bir GitHub'a yeni sürüm olup olmadığını sorar ("Yeni sürümleri bildir" ile kapatabilirsin). Ayarların tarayıcının kendi depolamasında tutulur. Ayrıntılar: [PRIVACY.md](PRIVACY.md)
 
 ## Lisans
 MIT

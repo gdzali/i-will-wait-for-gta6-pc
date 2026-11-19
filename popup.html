@@ -26,10 +26,22 @@
     .count { font-size: 22px; font-weight: 700; color: #ff5fa2; }
     .actions { display: flex; gap: 8px; justify-content: space-between; margin-top: 12px; }
     #status { color: #7ee2a8; height: 16px; margin-top: 8px; font-size: 12px; }
+    .update {
+      display: flex; align-items: center; justify-content: space-between; gap: 8px;
+      margin: 0 0 12px; padding: 8px 10px; border-radius: 8px;
+      background: #2a1a24; border: 1px solid #ff5fa2; color: #ffd1e6; text-decoration: none;
+    }
+    .update[hidden] { display: none; }
+    .update b { color: #ff5fa2; }
+    .update .go { background: #ff5fa2; color: #121219; font-weight: 600; border-radius: 6px; padding: 3px 8px; white-space: nowrap; }
     hr { border: 0; border-top: 1px solid #2a2a38; margin: 12px 0; }
   </style>
 </head>
 <body>
+  <a id="update" class="update" href="https://github.com/gdzali/i-will-wait-for-gta6-pc/releases/latest" target="_blank" rel="noopener" hidden>
+    <span id="updateText"></span>
+    <span class="go" data-i18n="updateDownload"></span>
+  </a>
   <h1 data-i18n="extName"></h1>
   <p class="sub" data-i18n="popupSubtitle"></p>
 
@@ -54,6 +66,10 @@
   <div class="row">
     <label for="blockWholePage" data-i18n="coverPage"></label>
     <input type="checkbox" id="blockWholePage">
+  </div>
+  <div class="row">
+    <label for="checkUpdates" data-i18n="checkUpdates"></label>
+    <input type="checkbox" id="checkUpdates">
   </div>
   <div class="row">
     <label for="aggressive"><span data-i18n="aggressive"></span><br><span class="hint" data-i18n="aggressiveHint"></span></label>

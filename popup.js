@@ -16,6 +16,7 @@ function render() {
   $("mode").value = current.mode;
   $("blockWholePage").checked = current.blockWholePage;
   $("aggressive").checked = current.aggressive;
+  $("checkUpdates").checked = current.checkUpdates;
   $("keywords").value = current.keywords.join("\n");
   const paused = host && current.pausedSites.includes(host);
   $("pause").textContent = paused ? t("resumeSite") : t("pauseSite");
@@ -47,6 +48,7 @@ chrome.storage.sync.get(GTA6_DEFAULTS, (s) => {
       if (u.protocol.startsWith("http")) host = u.hostname.replace(/^www\./, "");
     } catch {}
     render();
+    checkForUpdate();
     if (tab) {
       chrome.runtime.sendMessage({ type: "gta6-get-total", tabId: tab.id }, (res) => {
         void chrome.runtime.lastError;
@@ -54,6 +56,52 @@ chrome.storage.sync.get(GTA6_DEFAULTS, (s) => {
       });
     }
   });
+});
+
+// ---------- update check ----------
+// Asks GitHub for the latest release at most every 12 hours. Store installs update themselves,
+// so Chrome Web Store installs (which have an update_url) skip the check.
+const RELEASES_API = "https://api.github.com/repos/gdzali/i-will-wait-for-gta6-pc/releases/latest";
+const CHECK_EVERY_MS = 12 * 60 * 60 * 1000;
+
+function parseVersion(v) {
+  const m = /^v?(\d+(?:\.\d+){0,3})$/.exec(String(v || "").trim());
+  return m ? m[1].split(".").map(Number) : null;
+}
+
+function isNewer(latest, installed) {
+  for (let i = 0; i < Math.max(latest.length, installed.length); i++) {
+    const a = latest[i] || 0, b = installed[i] || 0;
+    if (a !== b) return a > b;
+  }
+  return false;
+}
+
+async function checkForUpdate() {
+  $("update").hidden = true;
+  if (!current.checkUpdates || chrome.runtime.getManifest().update_url) return;
+  const installed = parseVersion(chrome.runtime.getManifest().version);
+  let { updateCache: cache } = await chrome.storage.local.get("updateCache");
+  if (!cache || Date.now() - cache.at > CHECK_EVERY_MS) {
+    try {
+      const res = await fetch(RELEASES_API, { headers: { Accept: "application/vnd.github+json" }, credentials: "omit" });
+      if (res.ok) {
+        const { tag_name } = await res.json();
+        cache = { at: Date.now(), tag: String(tag_name || "") };
+        await chrome.storage.local.set({ updateCache: cache });
+      }
+    } catch {} // offline or rate-limited: try again next time
+  }
+  const latest = cache && parseVersion(cache.tag);
+  if (latest && installed && isNewer(latest, installed)) {
+    $("updateText").textContent = t("updateAvailable", [latest.join(".")]);
+    $("update").hidden = false;
+  }
+}
+
+$("checkUpdates").addEventListener("change", (e) => {
+  save({ checkUpdates: e.target.checked });
+  if (e.target.checked) checkForUpdate(); else $("update").hidden = true;
 });
 
 $("enabled").addEventListener("change", (e) => save({ enabled: e.target.checked }, e.target.checked ? t("statusOn") : t("statusOff")));

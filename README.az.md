@@ -59,7 +59,7 @@ Firefox 128 və ya daha yeni versiya lazımdır.
 - Qapalı shadow DOM içindəki məzmun skan edilmir.
 
 ## Məxfilik
-Əlavə heç bir məlumat toplamır və heç yerə qoşulmur. Ayarların yalnız brauzerin öz yaddaşında saxlanılır. Ətraflı: [PRIVACY.md](PRIVACY.md)
+Əlavə heç bir məlumat toplamır. Yeganə şəbəkə sorğusu istəyə bağlı yeniləmə yoxlamasıdır: popup ən çox 12 saatda bir GitHub-dan yeni versiya olub-olmadığını soruşur ("Yeni versiyalar barədə xəbər ver" ilə söndürə bilərsən). Ayarların yalnız brauzerin öz yaddaşında saxlanılır. Ətraflı: [PRIVACY.md](PRIVACY.md)
 
 ## Lisenziya
 MIT

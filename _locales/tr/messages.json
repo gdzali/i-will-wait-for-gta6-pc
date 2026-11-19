@@ -128,5 +128,19 @@
   },
   "saveFailed": {
     "message": "Kaydedilemedi: anahtar kelime listesi çok uzun"
+  },
+  "updateAvailable": {
+    "message": "Güncelleme var: v$VERSION$",
+    "placeholders": {
+      "version": {
+        "content": "$1"
+      }
+    }
+  },
+  "updateDownload": {
+    "message": "İndir"
+  },
+  "checkUpdates": {
+    "message": "Yeni sürümleri bildir"
   }
 }

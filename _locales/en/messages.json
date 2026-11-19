@@ -128,5 +128,19 @@
   },
   "saveFailed": {
     "message": "Could not save: the keyword list is too long"
+  },
+  "updateAvailable": {
+    "message": "Update available: v$VERSION$",
+    "placeholders": {
+      "version": {
+        "content": "$1"
+      }
+    }
+  },
+  "updateDownload": {
+    "message": "Download"
+  },
+  "checkUpdates": {
+    "message": "Notify me about new versions"
   }
 }

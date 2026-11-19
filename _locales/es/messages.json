@@ -128,5 +128,19 @@
   },
   "importFailed": {
     "message": "No se pudo leer ese archivo"
+  },
+  "updateAvailable": {
+    "message": "Actualización disponible: v$VERSION$",
+    "placeholders": {
+      "version": {
+        "content": "$1"
+      }
+    }
+  },
+  "updateDownload": {
+    "message": "Descargar"
+  },
+  "checkUpdates": {
+    "message": "Avisarme de nuevas versiones"
   }
 }

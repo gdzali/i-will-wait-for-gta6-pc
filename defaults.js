@@ -9,6 +9,8 @@ const GTA6_DEFAULTS = {
   blockWholePage: true,
   // Block every Grand Theft Auto game, not only GTA 6.
   aggressive: false,
+  // Popup checks GitHub Releases (at most twice a day) and shows a banner when a newer version exists.
+  checkUpdates: true,
   pausedSites: [],
   keywords: [
     "GTA 6",

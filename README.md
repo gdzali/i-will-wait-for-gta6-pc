@@ -60,7 +60,7 @@ Default keywords: GTA 6, GTA VI, GTA6, GTAVI, Grand Theft Auto 6 / VI / Six, GTA
 The interface is in Turkish, Azerbaijani or Spanish when your browser is set to that language, and English otherwise.
 
 ## Privacy
-The extension collects no data and makes no network requests. Your settings stay in Chrome storage.
+The extension collects no data. The only network request is an optional update check: the popup asks GitHub at most every 12 hours whether a newer version exists (turn it off with "Notify me about new versions"). Your settings stay in your browser's storage. Details: [PRIVACY.md](PRIVACY.md)
 
 ## Limits
 - Text drawn inside images or video frames (thumbnails with "VI" in the art) can't be read; only the surrounding text is checked.
