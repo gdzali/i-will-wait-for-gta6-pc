@@ -2,6 +2,13 @@
   display: none !important;
 }
 
+/* YouTube home: when a tile is hidden, the row it was in is one short and leaves a gap at its
+ * end. Let the tiles that are left share the row (at most half the width each). */
+ytd-rich-grid-renderer #contents:has(> ytd-rich-item-renderer[data-gta6-blocked]) > ytd-rich-item-renderer:not([data-gta6-blocked]) {
+  flex-grow: 1;
+  max-width: calc(50% - 16px);
+}
+
 #gta6-blocker-overlay {
   position: fixed !important;
   inset: 0 !important;

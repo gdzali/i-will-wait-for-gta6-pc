@@ -31,6 +31,9 @@
     "[role='article']", ".feed-shared-update-v2", ".status"
   ].join(",");
 
+  // Outer cells that wrap the containers above and take up space in a grid.
+  const GRID_CELLS = "ytd-rich-item-renderer";
+
   const GENERIC_CONTAINERS = [
     "article", "li", "[role='listitem']", "tr", "figure", "blockquote", "dd", "dt",
     ".card", ".post", ".story", ".teaser", ".tile"
@@ -115,7 +118,9 @@
   }
 
   function pickContainer(el) {
-    let target = el.closest(SITE_CONTAINERS) || el.closest(GENERIC_CONTAINERS);
+    // Grid cells go first: closest() returns the nearest match, so for a YouTube home tile it
+    // would pick the inner lockup and leave an empty cell holding its place in the grid.
+    let target = el.closest(GRID_CELLS) || el.closest(SITE_CONTAINERS) || el.closest(GENERIC_CONTAINERS);
     if (target && NEVER_HIDE.has(target.tagName)) target = null;
     if (!target) {
       const small = el.closest(SMALL_BLOCKS);
