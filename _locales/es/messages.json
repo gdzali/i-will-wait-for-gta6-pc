@@ -1,0 +1,104 @@
+{
+  "extName": {
+    "message": "Esperaré a GTA 6 en PC"
+  },
+  "extDescription": {
+    "message": "Oculta o elimina todo lo relacionado con GTA 6 de las páginas que visitas, para que puedas esperar tranquilo la versión de PC."
+  },
+  "popupSubtitle": {
+    "message": "Esperando la versión de PC en paz."
+  },
+  "hiddenOnPage": {
+    "message": "Ocultado en esta página"
+  },
+  "blockingOn": {
+    "message": "Bloqueo activado"
+  },
+  "whatToDo": {
+    "message": "Qué hacer"
+  },
+  "modeHide": {
+    "message": "Ocultarlo"
+  },
+  "modeRemove": {
+    "message": "Eliminarlo de la página"
+  },
+  "coverPage": {
+    "message": "Cubrir toda la página si su título coincide"
+  },
+  "keywordsLabel": {
+    "message": "Palabras clave (una por línea)"
+  },
+  "keywordsHint": {
+    "message": "Los espacios también coinciden con guiones, puntos y guiones bajos, así que \"GTA 6\" detecta \"gta-6\". No distingue mayúsculas de minúsculas."
+  },
+  "pauseSite": {
+    "message": "Pausar en este sitio"
+  },
+  "resumeSite": {
+    "message": "Reanudar en este sitio"
+  },
+  "save": {
+    "message": "Guardar"
+  },
+  "saved": {
+    "message": "Guardado"
+  },
+  "statusOn": {
+    "message": "Bloqueo activado"
+  },
+  "statusOff": {
+    "message": "Bloqueo desactivado"
+  },
+  "modeSaved": {
+    "message": "Guardado. Recarga la página para restaurar los elementos eliminados."
+  },
+  "keywordsSaved": {
+    "message": "$COUNT$ palabras clave guardadas",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "pausedOn": {
+    "message": "En pausa en $HOST$",
+    "placeholders": {
+      "host": {
+        "content": "$1"
+      }
+    }
+  },
+  "resumedOn": {
+    "message": "Bloqueando de nuevo en $HOST$",
+    "placeholders": {
+      "host": {
+        "content": "$1"
+      }
+    }
+  },
+  "overlayTitle": {
+    "message": "Spoiler bloqueado"
+  },
+  "overlayText": {
+    "message": "Esta página parece tratar del juego que esperas en PC. Aguanta."
+  },
+  "overlayBack": {
+    "message": "Sácame de aquí"
+  },
+  "overlayShow": {
+    "message": "Mostrar esta página de todos modos"
+  },
+  "aggressive": {
+    "message": "Modo agresivo"
+  },
+  "aggressiveHint": {
+    "message": "Bloquea todos los juegos de Grand Theft Auto, no solo GTA 6 (GTA V, GTA Online, San Andreas...)"
+  },
+  "aggressiveOn": {
+    "message": "Modo agresivo activado: se bloquea todo el contenido de GTA"
+  },
+  "aggressiveOff": {
+    "message": "Modo agresivo desactivado: solo se bloquea GTA 6"
+  }
+}

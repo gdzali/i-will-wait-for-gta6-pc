@@ -52,7 +52,7 @@ Firefox 128 və ya daha yeni versiya lazımdır.
   Qeyd: Sadə "GTA" sözünü də gizlədir.
 - **Bu saytda dayandır**
 
-İnterfeys brauzerin dili Azərbaycan və ya Türk dilidirsə həmin dildə, əks halda İngilis dilində görünür.
+İnterfeys brauzerin dili Azərbaycan, Türk və ya İspan dilidirsə həmin dildə, əks halda İngilis dilində görünür.
 
 ## Məhdudiyyətlər
 - Şəkil və ya video kadrlarının içinə çəkilmiş yazılar oxuna bilmir; yalnız ətrafdakı mətn yoxlanılır.

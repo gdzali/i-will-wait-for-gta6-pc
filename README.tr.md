@@ -56,7 +56,7 @@ Firefox 128 veya daha yenisi gerekir.
 
 Varsayılan anahtar kelimeler: GTA 6, GTA VI, GTA6, GTAVI, Grand Theft Auto 6 / VI / Six, GTA Six, Leonida, Lucia Caminos, Jason Duval.
 
-Arayüz, tarayıcı dili Türkçe veya Azerbaycanca ise o dilde, değilse İngilizce görünür.
+Arayüz, tarayıcı dili Türkçe, Azerbaycanca veya İspanyolca ise o dilde, değilse İngilizce görünür.
 
 ## Sınırlamalar
 - Resim veya video karelerinin içine çizilmiş yazılar okunamaz; sadece çevresindeki metin kontrol edilir.

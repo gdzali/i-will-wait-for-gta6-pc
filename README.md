@@ -57,7 +57,7 @@ Requires Firefox 128 or newer.
 
 Default keywords: GTA 6, GTA VI, GTA6, GTAVI, Grand Theft Auto 6 / VI / Six, GTA Six, Leonida, Lucia Caminos, Jason Duval.
 
-The interface is in Turkish or Azerbaijani when your browser is set to that language, and English otherwise.
+The interface is in Turkish, Azerbaijani or Spanish when your browser is set to that language, and English otherwise.
 
 ## Privacy
 The extension collects no data and makes no network requests. Your settings stay in Chrome storage.
