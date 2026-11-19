@@ -100,5 +100,30 @@
   },
   "aggressiveOff": {
     "message": "Aqressiv rejim deaktivdir: yalnız GTA 6 bloklanır"
+  },
+  "exportKeywords": {
+    "message": "İxrac et"
+  },
+  "importKeywords": {
+    "message": "İdxal et"
+  },
+  "keywordsExported": {
+    "message": "$COUNT$ açar söz ixrac edildi",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "keywordsImported": {
+    "message": "$COUNT$ yeni açar söz əlavə edildi",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "importFailed": {
+    "message": "Bu fayl oxuna bilmədi"
   }
 }

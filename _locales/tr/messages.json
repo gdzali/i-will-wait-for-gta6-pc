@@ -100,5 +100,30 @@
   },
   "aggressiveOff": {
     "message": "Agresif mod kapalı: sadece GTA 6 engelleniyor"
+  },
+  "exportKeywords": {
+    "message": "Dışa aktar"
+  },
+  "importKeywords": {
+    "message": "İçe aktar"
+  },
+  "keywordsExported": {
+    "message": "$COUNT$ anahtar kelime dışa aktarıldı",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "keywordsImported": {
+    "message": "$COUNT$ yeni anahtar kelime eklendi",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "importFailed": {
+    "message": "Bu dosya okunamadı"
   }
 }

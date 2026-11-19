@@ -100,5 +100,30 @@
   },
   "aggressiveOff": {
     "message": "Aggressive mode off: only GTA 6 is blocked"
+  },
+  "exportKeywords": {
+    "message": "Export"
+  },
+  "importKeywords": {
+    "message": "Import"
+  },
+  "keywordsExported": {
+    "message": "Exported $COUNT$ keywords",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "keywordsImported": {
+    "message": "Added $COUNT$ new keywords",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "importFailed": {
+    "message": "Could not read that file"
   }
 }

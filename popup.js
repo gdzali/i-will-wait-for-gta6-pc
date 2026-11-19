@@ -55,6 +55,39 @@ $("save").addEventListener("click", () => {
   save({ keywords: Array.from(new Set(keywords)) }, t("keywordsSaved", [String(keywords.length)]));
 });
 
+function readKeywords(text) {
+  return text.split(/\r?\n/).map((k) => k.trim()).filter(Boolean);
+}
+
+$("export").addEventListener("click", () => {
+  const keywords = readKeywords($("keywords").value);
+  const url = URL.createObjectURL(new Blob([keywords.join("\n") + "\n"], { type: "text/plain" }));
+  const a = document.createElement("a");
+  a.href = url;
+  a.download = "gta6-blocker-keywords.txt";
+  document.body.appendChild(a);
+  a.click();
+  a.remove();
+  setTimeout(() => URL.revokeObjectURL(url), 1000);
+  flash(t("keywordsExported", [String(keywords.length)]));
+});
+
+$("import").addEventListener("click", () => $("importFile").click());
+
+$("importFile").addEventListener("change", async (e) => {
+  const file = e.target.files[0];
+  e.target.value = ""; // allow picking the same file again
+  if (!file) return;
+  try {
+    if (file.size > 200 * 1024) throw new Error("file too large");
+    const have = readKeywords($("keywords").value);
+    const merged = Array.from(new Set(have.concat(readKeywords(await file.text()))));
+    save({ keywords: merged }, t("keywordsImported", [String(merged.length - have.length)]));
+  } catch {
+    flash(t("importFailed"));
+  }
+});
+
 $("pause").addEventListener("click", () => {
   if (!host) return;
   const list = new Set(current.pausedSites);
