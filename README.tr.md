@@ -8,6 +8,9 @@
   <a href="README.az.md"><img src="assets/lang/az.svg" alt="Azərbaycanca" height="36"></a>
   <a href="README.es.md"><img src="assets/lang/es.svg" alt="Español" height="36"></a>
 </p>
+<p align="center">
+  <a href="https://chromewebstore.google.com/detail/i-will-wait-for-gta-6-pc/caadeeddpphlmpldjbhbbigojjenkdmd"><img src="https://img.shields.io/chrome-web-store/v/caadeeddpphlmpldjbhbbigojjenkdmd?label=Chrome%20Web%20Store&logo=googlechrome&logoColor=white&color=4285F4" alt="Chrome Web Mağazası" height="28"></a>
+</p>
 
 Chrome, Edge, Brave ve Opera için **GTA 6 spoiler engelleyici**. **GTA 6'yı PC'de** oynamak için bekliyorsan ve konsol
 sürümünden spoiler yemek istemiyorsan bu ücretsiz, açık kaynak eklenti **GTA 6 / GTA VI / Grand Theft Auto 6**
@@ -19,6 +22,9 @@ Bu eklenti, gezdiğin her sayfadan GTA 6 ile ilgili her şeyi gizler veya siler.
 içerikleri de yakalar (YouTube, Reddit, X, Google, haber siteleri ve sonsuz kaydırma).
 
 ## Kurulum
+**Chrome, Edge, Brave ve Opera:** [Chrome Web Mağazası](https://chromewebstore.google.com/detail/i-will-wait-for-gta-6-pc/caadeeddpphlmpldjbhbbigojjenkdmd)'ndan kur. Otomatik olarak güncellenir.
+
+### Paketlenmemiş olarak yükleme (geliştirici sürümü)
 1. **Releases** sayfasından son sürümün zip dosyasını indir ve klasöre çıkar (veya bu depoyu klonla).
 2. Chrome'da `chrome://extensions` adresini aç.
 3. Sağ üstten **Geliştirici modu**nu aç.

@@ -8,6 +8,9 @@
   <a href="README.az.md"><img src="assets/lang/az.svg" alt="Azərbaycanca" height="36"></a>
   <a href="README.es.md"><img src="assets/lang/es-active.svg" alt="Español" height="36"></a>
 </p>
+<p align="center">
+  <a href="https://chromewebstore.google.com/detail/i-will-wait-for-gta-6-pc/caadeeddpphlmpldjbhbbigojjenkdmd"><img src="https://img.shields.io/chrome-web-store/v/caadeeddpphlmpldjbhbbigojjenkdmd?label=Chrome%20Web%20Store&logo=googlechrome&logoColor=white&color=4285F4" alt="Chrome Web Store" height="28"></a>
+</p>
 
 **Bloqueador de spoilers de GTA 6** para Chrome, Firefox, Edge, Brave y Opera. ¿Esperas a **GTA 6 en PC** y no quieres
 que te destripen la versión de consola? Esta extensión gratuita y de código abierto oculta spoilers, tráilers,
@@ -17,7 +20,10 @@ filtraciones, detalles de la historia, noticias, vídeos de YouTube, publicacion
 Oculta o elimina todo lo relacionado con GTA 6 en cualquier página web, incluido el contenido que se carga después
 (scroll infinito en YouTube, Reddit, X, Google y webs de noticias).
 
-## Instalación (cargar descomprimida)
+## Instalación
+**Chrome, Edge, Brave y Opera:** instálala desde la [Chrome Web Store](https://chromewebstore.google.com/detail/i-will-wait-for-gta-6-pc/caadeeddpphlmpldjbhbbigojjenkdmd). Se actualiza automáticamente.
+
+### Cargar descomprimida (versión de desarrollo)
 1. Descarga el zip más reciente desde la página de Releases y descomprímelo (o clona este repositorio).
 2. Abre `chrome://extensions` en Chrome.
 3. Activa el **Modo de desarrollador** (arriba a la derecha).

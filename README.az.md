@@ -8,6 +8,9 @@
   <a href="README.az.md"><img src="assets/lang/az-active.svg" alt="Azərbaycanca" height="36"></a>
   <a href="README.es.md"><img src="assets/lang/es.svg" alt="Español" height="36"></a>
 </p>
+<p align="center">
+  <a href="https://chromewebstore.google.com/detail/i-will-wait-for-gta-6-pc/caadeeddpphlmpldjbhbbigojjenkdmd"><img src="https://img.shields.io/chrome-web-store/v/caadeeddpphlmpldjbhbbigojjenkdmd?label=Chrome%20Web%20Store&logo=googlechrome&logoColor=white&color=4285F4" alt="Chrome Web Store" height="28"></a>
+</p>
 
 Chrome, Edge, Brave, Opera və Firefox üçün **GTA 6 spoiler bloklayıcısı**. **GTA 6-nı PC-də** oynamaq üçün gözləyirsənsə
 və konsol versiyasından spoiler görmək istəmirsənsə, bu pulsuz, açıq mənbəli əlavə **GTA 6 / GTA VI / Grand Theft Auto 6**
@@ -18,6 +21,9 @@ Daxil olduğun hər səhifədə GTA 6 ilə bağlı hər şeyi gizlədir və ya s
 (YouTube, Reddit, X, Google, xəbər saytları və sonsuz sürüşdürmə).
 
 ## Quraşdırma
+**Chrome, Edge, Brave və Opera:** [Chrome Web Store](https://chromewebstore.google.com/detail/i-will-wait-for-gta-6-pc/caadeeddpphlmpldjbhbbigojjenkdmd)-dan quraşdır. Avtomatik yenilənir.
+
+### Paketlənməmiş yükləmə (tərtibatçı versiyası)
 1. **Releases** səhifəsindən son versiyanın Chrome zip faylını yüklə və qovluğa çıxar.
 2. Chrome-da `chrome://extensions` ünvanını aç.
 3. Sağ yuxarıdan **Developer mode** (Tərtibatçı rejimi) aktiv et.

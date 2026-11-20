@@ -8,6 +8,9 @@
   <a href="README.az.md"><img src="assets/lang/az.svg" alt="Azərbaycanca" height="36"></a>
   <a href="README.es.md"><img src="assets/lang/es.svg" alt="Español" height="36"></a>
 </p>
+<p align="center">
+  <a href="https://chromewebstore.google.com/detail/i-will-wait-for-gta-6-pc/caadeeddpphlmpldjbhbbigojjenkdmd"><img src="https://img.shields.io/chrome-web-store/v/caadeeddpphlmpldjbhbbigojjenkdmd?label=Chrome%20Web%20Store&logo=googlechrome&logoColor=white&color=4285F4" alt="Chrome Web Store" height="28"></a>
+</p>
 
 **GTA 6 spoiler blocker** for Chrome, Edge, Brave and Opera. Waiting for **GTA 6 on PC** and don't want the console
 release spoiled? This free, open source extension hides **GTA 6 / GTA VI / Grand Theft Auto 6** spoilers, trailers,
@@ -16,7 +19,10 @@ leaks, story details, news, YouTube videos, Reddit posts (r/GTA6) and tweets unt
 Hides or deletes anything about GTA 6 from every web page, including content that loads later
 (infinite scroll on YouTube, Reddit, X, Google, news sites).
 
-## Install (load unpacked)
+## Install
+**Chrome, Edge, Brave and Opera:** install it from the [Chrome Web Store](https://chromewebstore.google.com/detail/i-will-wait-for-gta-6-pc/caadeeddpphlmpldjbhbbigojjenkdmd). It updates automatically.
+
+### Load unpacked (developer version)
 1. Download the latest zip from the Releases page and unzip it (or clone this repo).
 2. Open `chrome://extensions` in Chrome.
 3. Turn on **Developer mode** (top right).
