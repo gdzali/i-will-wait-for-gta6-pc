@@ -10,9 +10,10 @@
 </p>
 <p align="center">
   <a href="https://chromewebstore.google.com/detail/i-will-wait-for-gta-6-pc/caadeeddpphlmpldjbhbbigojjenkdmd"><img src="https://img.shields.io/chrome-web-store/v/caadeeddpphlmpldjbhbbigojjenkdmd?label=Chrome%20Web%20Store&logo=googlechrome&logoColor=white&color=4285F4" alt="Chrome Web Mağazası" height="28"></a>
+  <a href="https://addons.mozilla.org/addon/i-will-wait-for-gta-6-pc/"><img src="https://img.shields.io/amo/v/i-will-wait-for-gta-6-pc?label=Firefox%20Add-ons&logo=firefoxbrowser&logoColor=white&color=FF7139" alt="Firefox Add-ons" height="28"></a>
 </p>
 
-Chrome, Edge, Brave ve Opera için **GTA 6 spoiler engelleyici**. **GTA 6'yı PC'de** oynamak için bekliyorsan ve konsol
+Chrome, Firefox, Edge, Brave ve Opera için **GTA 6 spoiler engelleyici**. **GTA 6'yı PC'de** oynamak için bekliyorsan ve konsol
 sürümünden spoiler yemek istemiyorsan bu ücretsiz, açık kaynak eklenti **GTA 6 / GTA VI / Grand Theft Auto 6**
 spoilerlarını, fragmanlarını, sızıntılarını, hikaye detaylarını, haberleri, YouTube videolarını, Reddit gönderilerini
 (r/GTA6) ve tweet'leri sen hazır olana kadar gizler.
@@ -24,6 +25,8 @@ içerikleri de yakalar (YouTube, Reddit, X, Google, haber siteleri ve sonsuz kay
 ## Kurulum
 **Chrome, Edge, Brave ve Opera:** [Chrome Web Mağazası](https://chromewebstore.google.com/detail/i-will-wait-for-gta-6-pc/caadeeddpphlmpldjbhbbigojjenkdmd)'ndan kur. Otomatik olarak güncellenir.
 
+**Firefox:** [Firefox Eklentileri](https://addons.mozilla.org/addon/i-will-wait-for-gta-6-pc/) sayfasından kur. Otomatik olarak güncellenir.
+
 ### Paketlenmemiş olarak yükleme (geliştirici sürümü)
 1. **Releases** sayfasından son sürümün zip dosyasını indir ve klasöre çıkar (veya bu depoyu klonla).
 2. Chrome'da `chrome://extensions` adresini aç.
@@ -34,7 +37,7 @@ içerikleri de yakalar (YouTube, Reddit, X, Google, haber siteleri ve sonsuz kay
 Edge, Brave ve Opera'da da aynı şekilde çalışır.
 
 ### Firefox
-Onaylandıktan sonra Firefox Eklentileri sayfasından kurabilirsin. O zamana kadar geçici olarak denemek için:
+Geliştirici sürümünü geçici olarak yüklemek için:
 1. Releases sayfasından `i-will-wait-for-gta6-pc-firefox-<sürüm>.zip` dosyasını indir.
 2. `about:debugging#/runtime/this-firefox` adresini aç ve **Geçici Eklenti Yükle...** butonuna tıkla.
 3. Zip dosyasını seç. (Geçici eklentiler Firefox yeniden başlayınca kaldırılır.)

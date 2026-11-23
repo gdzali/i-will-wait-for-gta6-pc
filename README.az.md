@@ -10,6 +10,7 @@
 </p>
 <p align="center">
   <a href="https://chromewebstore.google.com/detail/i-will-wait-for-gta-6-pc/caadeeddpphlmpldjbhbbigojjenkdmd"><img src="https://img.shields.io/chrome-web-store/v/caadeeddpphlmpldjbhbbigojjenkdmd?label=Chrome%20Web%20Store&logo=googlechrome&logoColor=white&color=4285F4" alt="Chrome Web Store" height="28"></a>
+  <a href="https://addons.mozilla.org/addon/i-will-wait-for-gta-6-pc/"><img src="https://img.shields.io/amo/v/i-will-wait-for-gta-6-pc?label=Firefox%20Add-ons&logo=firefoxbrowser&logoColor=white&color=FF7139" alt="Firefox Add-ons" height="28"></a>
 </p>
 
 Chrome, Edge, Brave, Opera və Firefox üçün **GTA 6 spoiler bloklayıcısı**. **GTA 6-nı PC-də** oynamaq üçün gözləyirsənsə
@@ -23,6 +24,8 @@ Daxil olduğun hər səhifədə GTA 6 ilə bağlı hər şeyi gizlədir və ya s
 ## Quraşdırma
 **Chrome, Edge, Brave və Opera:** [Chrome Web Store](https://chromewebstore.google.com/detail/i-will-wait-for-gta-6-pc/caadeeddpphlmpldjbhbbigojjenkdmd)-dan quraşdır. Avtomatik yenilənir.
 
+**Firefox:** [Firefox Əlavələri](https://addons.mozilla.org/addon/i-will-wait-for-gta-6-pc/) səhifəsindən quraşdır. Avtomatik yenilənir.
+
 ### Paketlənməmiş yükləmə (tərtibatçı versiyası)
 1. **Releases** səhifəsindən son versiyanın Chrome zip faylını yüklə və qovluğa çıxar.
 2. Chrome-da `chrome://extensions` ünvanını aç.
@@ -33,7 +36,7 @@ Daxil olduğun hər səhifədə GTA 6 ilə bağlı hər şeyi gizlədir və ya s
 Edge, Brave və Opera-da da eyni qaydada işləyir.
 
 ### Firefox
-Təsdiqləndikdən sonra Firefox Əlavələri səhifəsindən quraşdıra bilərsən. O vaxta qədər müvəqqəti sınamaq üçün:
+Tərtibatçı versiyasını müvəqqəti yükləmək üçün:
 1. Releases səhifəsindən `i-will-wait-for-gta6-pc-firefox-<versiya>.zip` faylını yüklə.
 2. `about:debugging#/runtime/this-firefox` ünvanını aç və **Load Temporary Add-on...** düyməsinə bas.
 3. Zip faylını seç. (Müvəqqəti əlavələr Firefox yenidən başladılanda silinir.)

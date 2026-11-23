@@ -10,9 +10,10 @@
 </p>
 <p align="center">
   <a href="https://chromewebstore.google.com/detail/i-will-wait-for-gta-6-pc/caadeeddpphlmpldjbhbbigojjenkdmd"><img src="https://img.shields.io/chrome-web-store/v/caadeeddpphlmpldjbhbbigojjenkdmd?label=Chrome%20Web%20Store&logo=googlechrome&logoColor=white&color=4285F4" alt="Chrome Web Store" height="28"></a>
+  <a href="https://addons.mozilla.org/addon/i-will-wait-for-gta-6-pc/"><img src="https://img.shields.io/amo/v/i-will-wait-for-gta-6-pc?label=Firefox%20Add-ons&logo=firefoxbrowser&logoColor=white&color=FF7139" alt="Firefox Add-ons" height="28"></a>
 </p>
 
-**GTA 6 spoiler blocker** for Chrome, Edge, Brave and Opera. Waiting for **GTA 6 on PC** and don't want the console
+**GTA 6 spoiler blocker** for Chrome, Firefox, Edge, Brave and Opera. Waiting for **GTA 6 on PC** and don't want the console
 release spoiled? This free, open source extension hides **GTA 6 / GTA VI / Grand Theft Auto 6** spoilers, trailers,
 leaks, story details, news, YouTube videos, Reddit posts (r/GTA6) and tweets until you are ready to play.
 
@@ -21,6 +22,8 @@ Hides or deletes anything about GTA 6 from every web page, including content tha
 
 ## Install
 **Chrome, Edge, Brave and Opera:** install it from the [Chrome Web Store](https://chromewebstore.google.com/detail/i-will-wait-for-gta-6-pc/caadeeddpphlmpldjbhbbigojjenkdmd). It updates automatically.
+
+**Firefox:** install it from [Firefox Add-ons](https://addons.mozilla.org/addon/i-will-wait-for-gta-6-pc/). It updates automatically.
 
 ### Load unpacked (developer version)
 1. Download the latest zip from the Releases page and unzip it (or clone this repo).
@@ -32,7 +35,7 @@ Hides or deletes anything about GTA 6 from every web page, including content tha
 Works in Edge, Brave and Opera the same way.
 
 ### Firefox
-Install it from Firefox Add-ons once it's approved. Until then, to try it temporarily:
+To load the developer version temporarily:
 1. Download `i-will-wait-for-gta6-pc-firefox-<version>.zip` from the Releases page.
 2. Open `about:debugging#/runtime/this-firefox` and click **Load Temporary Add-on...**
 3. Pick the zip file. (Temporary add-ons are removed when Firefox restarts.)

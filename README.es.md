@@ -10,6 +10,7 @@
 </p>
 <p align="center">
   <a href="https://chromewebstore.google.com/detail/i-will-wait-for-gta-6-pc/caadeeddpphlmpldjbhbbigojjenkdmd"><img src="https://img.shields.io/chrome-web-store/v/caadeeddpphlmpldjbhbbigojjenkdmd?label=Chrome%20Web%20Store&logo=googlechrome&logoColor=white&color=4285F4" alt="Chrome Web Store" height="28"></a>
+  <a href="https://addons.mozilla.org/addon/i-will-wait-for-gta-6-pc/"><img src="https://img.shields.io/amo/v/i-will-wait-for-gta-6-pc?label=Firefox%20Add-ons&logo=firefoxbrowser&logoColor=white&color=FF7139" alt="Firefox Add-ons" height="28"></a>
 </p>
 
 **Bloqueador de spoilers de GTA 6** para Chrome, Firefox, Edge, Brave y Opera. ¿Esperas a **GTA 6 en PC** y no quieres
@@ -23,6 +24,8 @@ Oculta o elimina todo lo relacionado con GTA 6 en cualquier página web, incluid
 ## Instalación
 **Chrome, Edge, Brave y Opera:** instálala desde la [Chrome Web Store](https://chromewebstore.google.com/detail/i-will-wait-for-gta-6-pc/caadeeddpphlmpldjbhbbigojjenkdmd). Se actualiza automáticamente.
 
+**Firefox:** instálala desde [Firefox Add-ons](https://addons.mozilla.org/addon/i-will-wait-for-gta-6-pc/). Se actualiza automáticamente.
+
 ### Cargar descomprimida (versión de desarrollo)
 1. Descarga el zip más reciente desde la página de Releases y descomprímelo (o clona este repositorio).
 2. Abre `chrome://extensions` en Chrome.
@@ -33,7 +36,7 @@ Oculta o elimina todo lo relacionado con GTA 6 en cualquier página web, incluid
 Funciona igual en Edge, Brave y Opera.
 
 ### Firefox
-Instálala desde Firefox Add-ons cuando esté aprobada. Mientras tanto, para probarla de forma temporal:
+Para cargar la versión de desarrollo de forma temporal:
 1. Descarga `i-will-wait-for-gta6-pc-firefox-<versión>.zip` desde la página de Releases.
 2. Abre `about:debugging#/runtime/this-firefox` y haz clic en **Cargar complemento temporal...**
 3. Elige el archivo zip. (Los complementos temporales se eliminan al reiniciar Firefox.)
